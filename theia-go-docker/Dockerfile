@@ -1,5 +1,5 @@
 FROM node:8
-ARG version=newest
+ARG version=next
 RUN apt-get update && \
     apt-get install -y curl git
 RUN curl -sS https://dl.google.com/go/go1.10.linux-amd64.tar.gz | tar -C /usr/local -xzf -
